@@ -1,0 +1,77 @@
+// ALGORITMA SOAL 1
+// -------------------
+// 1. simpan 'massa' benda (kg) = 600kg
+// 2. simpan 'percepatan' (m/s2) = 2 m/s2
+// 3. hitung 'gaya' newton menggunakan rumus = (m * a)
+// 4. tampilkan hasil 'gaya'
+
+// PSEUDOCODE SOAL 1
+// -------------------
+// STORE 'massa' with = 600Kg
+// STORE 'percepatan' with = 2m/s2
+
+// CALCULATE 'gaya' = (600 * 2)
+//     DISPLAY 'gaya'
+
+// ALGORITMA SOAL 2
+// -----------------
+// 1. simpan 'tahun'
+// 2. jika sisa pembagian ('tahun' dibagi 4) = (samadengan) 0 dan 'tahun' dibagi 100 != (tidak samadengan) 0 maka tampilkan 'tahun kabisat'
+// 3. jika sisa pembagian ('tahun' dibagi 100) = (samadengan) 0 dan 'tahun' dibagi 400 = (samadengan) 0 tampilkan 'tahunkabisat'
+// 4. jika tidak memenuhi kondisi pada step 2 dan 3 tampilkan 'bukantahunkabisat'
+// PSEODOCODE SOAL 2
+// -----------------
+// STORE 'tahun'
+// IF ('tahun' % 4) = 0 AND ('tahun' % 100)!= 0 THEN
+//  DISPLAY = 'tahunkabisat'
+// END IF
+// ELSE IF ('tahun' % 100) = 0 AND ('tahun' % 400) = 0 THEN
+//  DISPLAY = 'tahunkabisat'
+// END ELSE IF
+// ELSE
+//  DISPLAY = 'bukantahunkabisat'
+// END ELSE
+
+// ALGORITMA SOAL 3
+// -----------------
+// 1. simpan 'WashLimit' = 20
+// 2. ulangi step 3 selama 'WashLimit' masih dibawah 20. Jika 'WashLimit' sudah 20, lanjut ke step 4
+// 3. tambah 'WashLimit' dengan 1
+// 4. tampilkan 'ReadyToWash', berarti mesin cuci siap dinyalakan.
+
+// PSEUDOCODE SOAL 3
+// ------------------
+// STORE 'WashLimit' with 0
+// WHILE 'WashLimit' < 20
+//  ADD 'WashLimit' by 1
+//  DISPLAY 'ReadyToWash'
+// END WHILE
+
+// ALGORITMA SOAL 4
+// ----------------
+// 1. simpan 'batasPeriksa' = 40
+// 2. simpan 'counter' = 0
+// 3. lakukan selama 'counter' lebih kecil dari 'batasPeriksa'
+// 3.a. simpan 'hasilPeriksa' untuk mengetahui hasil pemeriksaan
+// 3.b. -nilai 'counter' ditambah 1 
+//      -jika 'hasilPeriksa' kuku murid 'panjang' tampilkan 'hukum'
+//      -jika 'hasilPeriksa' kuku murid tidak 'panjang' tampilkan 'puji'
+// 3.c. -ulangi step 3.b.
+//      -nilai 'counter' = 40 lanjut ke step 4
+// 4. pemeriksaan selesai
+
+// PSEUDOCODE SOAL 4
+// -----------------
+// STORE 'batasPeriksa' with 40
+// STORE 'counter' with 0
+// 
+// STORE 'hasilPeriksa' for the result
+// WHILE 'counter' < 'batasPeriksa'
+//  SET 'counter' = 'counter' + 1
+//  IF 'hasilPeriksa' kuku murid 'panjang' THEN
+//  DISPLAY 'hukum'
+//  ELSE
+//  DISPLAY 'puji'
+//  END WHILE  
+
+
