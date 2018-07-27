@@ -13,7 +13,7 @@ function highestScore(students) {
                     //console.log(tampClass)
                 }
             } classTamp.push(tampClass);
-        } console.log(classTamp)
+        } //console.log(classTamp)
         //console.log(classTamp.length)
         //console.log(classTamp[0].length)
         var resultAkhir = {};
